@@ -39,7 +39,6 @@ function right() {
   if (game.positionX > game.level[game.positionX].length) {
     alert('Gagné');
   }
-  console.log(game.level);
 }
 
 function left() {
@@ -67,7 +66,7 @@ function up() {
 /* *********************************** Programme*********************************** */
 /*************************************************************************************************/
 document.addEventListener("DOMContentLoaded", function () {
-  console.log(level1);
-
   document.addEventListener("keydown", deplacement);
+  console.log(game.level[game.positionX].length);
+  lol
 });
